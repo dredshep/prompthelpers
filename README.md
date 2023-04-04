@@ -22,7 +22,7 @@ To get started with `PromptHelpers` and run it locally or deploy it with Vercel,
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/prompthelpers.git
+git clone https://github.com/dredshep/prompthelpers.git
 ```
 
 2. Change into the project directory:
