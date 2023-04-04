@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useState, useRef } from "react";
+import GithubLogo from "@/components/GithubLogo";
 
 type Prompt = {
   prompt: string;
@@ -132,6 +133,28 @@ export default function Home() {
           {copyButtonText}
         </button>
       </div>
+
+      <a
+        href="https://github.com/dredshep/prompthelpers"
+        className="flex gap-4 mt-4 text-gray-300 hover:text-gray-500 fill-current"
+      >
+        {/* <svg
+          xmlns="http://www.w3.org/2000/svg"
+          className="h-6 w-6"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            d="M12 14l9-5-9-5-9 5 9 5zm0 0l-9 5 9 5 9-5-9-5zm0 0v12M5 5h14M5 19h14"
+          />
+        </svg> */}
+        <GithubLogo />
+        <div>Github Source Code</div>
+      </a>
     </div>
   );
 }
